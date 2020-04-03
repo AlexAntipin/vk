@@ -1,11 +1,9 @@
-import vk_api
+
 import json
 from flask import Flask, request
 
 
 
-vk_session = vk_api.VkApi(token=API_TOKEN)
-api = vk_session.get_api()
 app = Flask(__name__)
 
 
